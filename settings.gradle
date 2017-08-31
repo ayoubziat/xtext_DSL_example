@@ -1,0 +1,3 @@
+include 'org.xtext.example.conPlan'
+include 'org.xtext.example.conPlan.ide'
+include 'org.xtext.example.conPlan.web'

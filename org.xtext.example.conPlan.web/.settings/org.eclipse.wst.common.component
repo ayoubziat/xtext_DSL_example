@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="org.xtext.example.conPlan.web">
+		<property name="context-root" value="org.xtext.example.conPlan.web"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src-gen"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="xtend-gen"/>
+		<wb-resource deploy-path="/" source-path="WebRoot"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/org.xtext.example.conPlan/org.xtext.example.conPlan">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/org.xtext.example.conPlan.ide/org.xtext.example.conPlan.ide">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>
