@@ -25,7 +25,7 @@ class ConPlanParsingTest {
 	
 // !!!!	@Inject extension ParseHelper<Model> => _parseHelper.parse.... 
 
-    //Testing the parser
+    // Testing the parser
 //	@Test
 //	def void testCorrectParsing(){
 //		'''"The big data"{
@@ -79,9 +79,10 @@ class ConPlanParsingTest {
 //		}'''.parse.assertNoErrors
 //		
 //	}
-	//Testing the Validator => doesnt work !!!!!
-	//maybe I should create another JUnit class
-	//to test the validator
+
+	// Testing the Validator => doesnt work !!!!!
+	// maybe I should create another JUnit class
+	// to test the validator
 	@Test
 	def void testTalkTwiceAssigned(){
 		'''"The big data"{
@@ -100,7 +101,7 @@ class ConPlanParsingTest {
 						Spot: "The big data"
 					}
 					Slot 10 :00- 10 :30{
-«««						Argos: "The big data"
+ï¿½ï¿½ï¿½						Argos: "The big data"
 					}
 				}
 			}
